@@ -12,7 +12,7 @@ public class Persona {
     }
 
     public String obtenirDades() {
-        return  " Persona amb nom: " + this.nom + " i"  ;
+        return  " Persona amb nom: " + this.nom + " i "  ;
 
     }
 

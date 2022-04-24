@@ -24,7 +24,7 @@ public class Main {
         Persona p2 = new Persona();
 
         p1.canviarNom("Manu");
-        p2.assignarDni("555555N");
+        p2.assignarDni("41548342N");
 
         String dades = p1.obtenirDades();
         String Dni = p2.canviarDni();
@@ -40,7 +40,15 @@ public class Main {
         Estudiant e = new Estudiant();
         e.posarNota(9.9);
         e.canviarNom("Ash");
+        e.assignarDni("48931468L");
         dades = e.obtenirDades();
+        System.out.println(dades);
+
+        Professor p = new Professor();
+        p.canviarNom("Pep");
+        p.canviarSou(150.55);
+        p.assignarDni("42342534H");
+        dades = p.obtenirDades();
         System.out.println(dades);
 
     }
