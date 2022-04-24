@@ -12,7 +12,15 @@ public class Persona {
     }
 
     public String obtenirDades() {
-        return  " Persona que es diu " + this.nom;
+        return  " Persona amb nom: " + this.nom + " i"  ;
 
+    }
+
+
+    public void assignarDni(String dni) {
+        this.dni = dni;
+    }
+    public String canviarDni() {
+        return " DNI: " + this.dni;
     }
 }
